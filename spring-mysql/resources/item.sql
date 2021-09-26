@@ -1,0 +1,7 @@
+CREATE TABLE `todolist`.`item` (
+  `id` INT NOT NULL,
+  `texto_item` VARCHAR(500) NOT NULL,
+  `status_item` VARCHAR(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE)
+COMMENT = 'TABELA REFERENTE AOS ITENS DA LISTA.';

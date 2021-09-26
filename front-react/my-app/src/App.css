@@ -1,0 +1,11 @@
+.App {
+    text-align: center;
+}
+
+.PrivateSwitchBase-input-4:checked~.MuiInputBase-input MuiInput-input {
+    text-decoration: line-through;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
