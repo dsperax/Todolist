@@ -36,7 +36,7 @@ CREATE TABLE `todolist`.`item` (
 COMMENT = 'TABELA REFERENTE AOS ITENS DA LISTA.';
 ```
 
-- Execute a API:
+- Execute a API;
 
 - Execute o front na pasta my-app com o comando:
 
