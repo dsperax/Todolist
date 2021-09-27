@@ -29,10 +29,6 @@ export const ToDoList: React.FC = () => {
         const { data } = await api.get('items');
         data.map((data: TodoItem, index: number) => {
             checkedState[index] = data.status === 'I' ? true : false;
-            // const textoItem = document.getElementsByClassName("MuiInputBase-input MuiInput-input");
-            // if (checkedState[index]){
-            //     TextField
-            // }
         })
         setList(item => [...data]);
     }
